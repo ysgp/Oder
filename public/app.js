@@ -2,11 +2,10 @@ const firebaseConfig = {
     apiKey: "AIzaSyBP36Ia16UvldsGFpI9diZV-vcm-EUrY8w",
     authDomain: "oder-9b509.firebaseapp.com",
     projectId: "oder-9b509",
-    storageBucket: "oder-9b509.firebasestorage.app",
+    storageBucket: "oder-9b509.appspot.com",
     messagingSenderId: "162271330874",
-    appId: "1:162271330874:web:4b0be61f911cd2f84f6b03",
-    measurementId: "G-F4GX2GHLFG"
-  };
+    appId: "1:162271330874:web:4b0be61f911cd2f84f6b03"
+};
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
